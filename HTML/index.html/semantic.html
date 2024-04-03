@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 3 - Semantic HTML</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to our Website! </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="https://example.com">Home</a></li>
+            <li> <a href="#">About us</a></li>
+            <li> <a href="#">Service</a></li>
+            <li> <a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>
+                We are a company dedictaed to providing high quality products to customers.
+
+            </p>
+            <section>
+                <h2>Services</h2>
+                <ul>
+                    <li>Product Sales  </li>
+                    <li>Constitution</li>
+                    <li>Support</li>
+                </ul>
+            </section>
+        </section>
+    </main>
+    
+    <!-- Tables-->
+
+    <table border="4">
+        <thead> <!-- Table Head-->
+            <tr> <!-- Table Row-->
+                <th>Name</th> <!-- Table header-->
+                <th colspan="2">Details</th>
+            </tr>
+        </thead>
+        <tbody> <!-- Table Body-->
+            <tr> <!-- Table row-->
+                <td rowspan="2"> John</td> <!-- Table data-->
+                <td rowspan="2"> 45 yrs old</td> 
+                <td>New york</td>
+            </tr>
+            <tr>
+                <td>Philippines</td>
+            </tr>
+            <tr>
+                <td>Joseph</td>
+                <td>25 years old</td>
+                <td>Vancouver</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- Table footer -- summary information-->
+            <tr>
+                <td colspan="3"> Total: 2 people</td>
+        
+
+            </tr>
+        </tfoot> 
+    </table>
+
+    <br />
+
+    <!-- Adding Images using image url-->
+
+    <img src="https://floridafurbabies.com/azure/sunshinestatepups/pups/Shih%20Poo%20with%20Long%20Hair.png?w=557&h=557&mode=crop&autorotate=1" alt="Shipoo image from the web" height=" 200px" width="300px"> 
+
+    <br />
+    <!-- adding image from local folder-->
+
+    <img src="images.jpeg" alt="image shipoo" height="200" width="300">
+    <br />
+    <img
+    src="./images/image2.avif"
+    alt="Image is saved locally, in another folder, named 'images'. "
+    height="200px"
+    width="200px"
+    <aside>
+        <h4>Latest News</h4>
+        <p>Check out our new product launch</p>
+    </aside>
+
+    <footer>
+        <p> &copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

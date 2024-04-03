@@ -1,0 +1,192 @@
+<!-- 
+    HTML - HyperText Markup Language
+            -- provides the backbone/structure of a website
+
+    HTML Tags -- defines the elements on a webpage
+
+    HTML Attributes -- provides additional information about HTML elements
+ -->
+
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <title>Day 3 - HTML</title>
+   </head>
+ 
+   <body>
+     <p>
+       <!-- opening tag-->
+       This is a paragraph.
+       <!-- content -->
+     </p>
+     <!-- closing tag -->
+ 
+     <!-- HEADINGS -->
+     <h1>This is Heading 1.</h1>
+     <h2>This is Heading 2.</h2>
+     <h3>This is Heading 3.</h3>
+     <h4>This is Heading 4.</h4>
+     <h5>This is Heading 5.</h5>
+     <h6>This is Heading 6.</h6>
+ 
+     <!-- Inserting a horizontal rule -->
+     <hr />
+ 
+     <!-- Paragraph Text -->
+     <p>
+       This is the first line. This is the second line. This is the third line.
+     </p>
+ 
+     <!-- Inserting <br/> for line breaks -->
+     <p>
+       This is the first line. <br />
+       This is the second line. <br />
+       This is the third line.
+     </p>
+
+     <hr />
+
+     <h3>Structural Element</h3>
+
+     <div> This is a div. Its a block-level element. </div>
+     
+
+     <br />
+
+     <span> This is a span. It's an inline-level element</span>
+     <span> This is a span. It's an inline-level element</span>
+
+     <br />
+
+     <h3> Text Styling</h3>
+     <p> This is a <strong> important</strong> text</p>
+     <p> This text is <em>emphasized</em></p>
+     <p> This text us <u>underlined</u></p>
+     <p> This text us <s>no longer valid</s></p>
+     <p>H<sub>2</sub>0 is the chemical for water</p>
+     <p> The speed of light is approximately 3 x 10 <sup>8</sup>m/s</p>
+
+     <hr />
+
+    <!-- Lists -->
+    <h4> Ordered List</h4>
+     <ol>
+        <li> This is the First ordered List Item</li>
+        <li> This is the Second ordered List Item</li>
+        <li> This is the Third ordered List Item</li>
+     </ol>
+
+     <h4> Unordered List</h4>
+        <ul>
+            <li> This is the First unordered list</li>
+            <li> This is the Second unordered List Item</li>
+            <li> This is the Third unordered List Item</li>
+        </ul>
+
+    <h4> Definition List</h4>
+        <dl> <!-- Definition List --provides the definition of a certain list-->
+            <dt> HTML</dt> <!-- Definition Term -- marks the term to be defined-->
+            <dd> HyperText Markup list</dd> <!-- DDefinition Description -- provides the definition of the term-->
+        </dl>
+             <dt> CSS</dt>
+             <dd> Cascading Style Sheet</dd>
+
+    <h4> Nested List</h4>
+    <ul>
+        <li> List Item 1</li>
+        <li> List Item 2</li>
+        <ol>
+            <li> Subitem 1</li>
+            <li> Subitem 2</li>
+        </ol>
+        <li>List Item 3</li>
+    </ul>  
+
+    <br />
+    <!-- List and Anchors-->
+
+    <!-- Link to an External website-->
+    <p>
+        Go to this website:
+        <a href="https://www.example.com">Visit External Website</a>
+    </p> 
+    <br />
+
+    <!-- Link to an external website but set to open in a new tab-->
+    <p>
+        open link in a new tab
+        <a href="https://www.example.com" target="_blank"> Visit external web in a new tab</a>
+    </p>
+
+    <hr />
+ 
+    <!-- creating anchor points within the page-->
+    <h4> Sample Page</h4>
+    <p> This is spme content on a page</p>
+
+    <!-- Creating the anchor point-->
+
+    <a id="section"> this is the anchor point. Jump Here</a>
+
+    <h3> Section 1</h3>
+    <p>This is the content of Section 1...</p>
+
+    <!-- Creating the link  to the anchor point-->
+    <a href="#section1"> Jump to Section 1</a>
+    <p> more content here</p>
+
+    <hr />
+    <!-- Forms-->
+    <form target="_blank">
+        <h2> Sample Form</h2>
+
+        <label for="name"> Name:</label>
+        <input type="text" id="name" required>
+
+        <br/>
+
+        <label for="message"> Message:</label>
+        <textarea 
+        id="message"
+        cols="50"
+        rows="4"
+        placeholder="Enter a message here"
+        required
+        ></textarea>
+
+        <br />
+        <!-- Drop down menu-->
+        <label for="gender"> Gender</label>
+        <select id="gender">
+            <option>Female</option>
+            <option>Male</option>
+        </select>
+
+        <br />
+
+        <!-- Radio Button-->
+        <input type="radio" id="option1" name="options">
+        <label for="option1"> Option1</label>
+        <input type="radio" id="option2" name="options">
+        <label for="option1"> Option2</label>
+        <input type="radio" id="option3" name="options">
+        <label for="option1"> Option3</label>
+
+        <br />
+
+        <!-- Check Boxes-->
+        <input type="checkbox" id="check1" name="checkboxes">
+        <label for="check1"> Check1</label>
+        <input type="checkbox" id="check2" name="checkboxes">
+        <label for="check2"> Check2</label>
+
+        <br />
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+    <br />
+
+   </body>
+ </html>
