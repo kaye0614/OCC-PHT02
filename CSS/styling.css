@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.font-sample {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Anton", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background-color: teal;
+    color: white;
+}
+
+.text-sample{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:line-through;
+    font-size: 20px;
+}
+
+#spacing-sample{
+    letter-spacing: 5px;
+    line-height: 5;
+    background-color: antiquewhite;
+    text-indent: 50px;
+}
+
+/* text shadow
+    x-coordinate
+    y-coordinate
+    blur radius -- color of the shadow*/
+
+#shadow-sample{
+    text-shadow: 7px -5px 10px red;
+    font-size: 30px;
+}
+
+.bg{
+    background-color: blanchedalmond;
+
+    /* gradient backgroud*/
+
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+    /* image background url*/
+
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712188800&semt=sph);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   /* background: bg-color || bg-image || bg-position|| bg-size|| bg-repeat || bg-attachment; */
+}
+
+.box-model {
+    background-color: pink;
+    height: 100px;
+    width: 80px;
+    padding: 20px 10px 5px 18px;
+    padding-bottom: 50px;
+
+    border-color: crimson;
+    border-width: 5px;
+    border-style: dotted;
+    border: 10px inset orange;
+    border-radius: 50px;
+
+    border-top: solid 3px purple;
+    border-right: 5px dashed blueviolet;
+    border-bottom: yellow 4px double;
+    
+    margin: 5px 10px 30px 50px;
+    margin-left: 80px;
+}
+
+/*
+
+== MARGIN and PADDING ==
+    1 value : applied to all 4 sides
+    2 values : top and bottom side || right and left side
+    3 value : top side || left and right side || bottom side 
+    4 value: top side || right side || bottom side || left side|| */
