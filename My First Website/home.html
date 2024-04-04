@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'CMUSerifRoman';
+        }
+
+        header{
+            position: fixed;
+            width: 100%;
+            padding: 15px 35px;
+            
+        }
+
+        header ul{
+            display: flex;
+            list-style: none;
+            gap: 55px;
+        }
+
+        header a{
+            text-decoration: none;
+            color: #554A43;
+        }
+        .section-one{
+            background-color: #E0D4C5;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .section-two{
+            background-color: #FFFAF4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 200px;
+            gap: 25px;
+        }
+        .border-sec-two{
+            border: 1px solid black;
+            border-radius: 15px;
+            width: 407px;
+            height: 176px;
+            padding: 15px;
+            text-align: justify;
+            color: #606060;
+        }
+        .section-three{
+            background-color: #8D7B60;
+            padding-left: 80px;
+            padding-right: 80px;
+            height: 100vh;
+            padding-top: 200px;
+            
+        }
+        .section-four{
+            background-color: #EFEFEF;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            justify-content: center;
+            align-items: center;
+            padding: 100px;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <header >
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#Aboutme">About Me</a>
+            </li>
+            <li>
+                <a href="#Projects">Projects</a>
+            </li>
+            <li>
+                <a href="#Contactme">Contact Me</a>
+            </li>
+
+        </ul>
+    </header>
+    <section class="section-one" id="home">
+        <div style="display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;">
+            <h1 style="font-size: 45px; color: #554A43; ">Ma Kristina Villacarlos</h1>
+            <label for="" style="font-size: 18px; color:#554A43">Technical and QC Manager</label>
+            <a href="#Aboutme" style="color: #737373; background-color: #554a4321; text-decoration: none;
+            border: none;
+            padding: 7px;
+            border-radius: 11px;
+            width: 90px; margin-top: 20px;">Learn More</a>
+        </div>
+        <div>
+            <img src="Home.png" alt="">
+        </div>
+    </section>
+    <section class="section-two" id="Aboutme">
+        <div>
+            <img src="Home (1).png" alt="">
+        </div>
+        <div style="display: flex;
+        flex-direction: column;
+        gap: 25px;">
+            <div class="border-sec-two">
+                <div>
+                    <img src="Home (8).png" alt="">
+                </div>
+                <div>
+                    <p style=" padding-left: 40px;
+                    margin-top: -20px; letter-spacing: 1px;">A well versed Marketing and Technical Manager with 7 years of experience in the Construction Industry soing all stages of commercial and residential development.</p>
+                </div>
+            </div>
+            <div class="border-sec-two" style="padding: 20px;">
+                <div>
+                    <img src="Home (9).png" alt="">
+                </div>
+                <div>
+                    <p style=" padding-left: 40px;
+                    margin-top: -20px; letter-spacing: 1px;">UI/UX Design, Graphic Design, Photo Editing, and Korean Language Learning.</p>
+                </div>
+            </div>
+            <div class="border-sec-two" style="padding: 2px;">
+                
+                <div>
+                    <img src="Home (10).png" alt="">
+                </div>
+                <div>
+                    <p style=" padding-left: 40px;
+                    margin-top: -20px; letter-spacing: 1px;"> Sales Management , Design and Estimate, Basic in Auto CAD and Sketch Up, Basic skills in Adobe Photoshop, Canva Design, and Microsoft Office.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-three" id="Projects">
+        <h1 style="color: #FFFAF4; text-align: left;" > My Projects</h1>
+        <div style="border: #E0D4C5 3px solid;">
+            <div style="display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;" >
+                <img src="Home (7).png" alt="" style="width: 100%; padding-left: 22px;">
+            </div>
+            <div style="display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;">
+                <div>
+                    <a href="https://www.singaporeschoolcebu.com/" target="_blank">
+                        <img src="Home (12).png" alt="Singapore International School">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.mactancebuairport.com/" target="_blank">
+                        <img src="Home (13).png" alt="MCIAAT2">
+                    </a>
+                </div>
+                <div>
+                    <a href="https://litepanel.ph/" target="_blank">
+                        <img src="Home (14).png" alt="Liteblock">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+    <section class="section-four" id="Contactme"> 
+        <div>
+            <h2> CONTACT ME</h2>
+            <h3> SEND A MESSAGE</h3>
+            <form action="" style="width: 400px;">
+                <div>
+                    <input type="text" placeholder="NAME:" style="width: 100%; background-color: #E0D4C5; border: 1px solid #000; outline: none;border-radius: 5px; padding: 5px;">
+                </div>
+                <div>
+                    <input type="text" placeholder="CONTACT NUMBER:" style="width: 100%; background-color: #E0D4C5; border: 1px solid #000; outline: none;border-radius: 5px; padding: 5px;">
+                </div>
+                <div>
+                    <input type="text" placeholder="EMAIL ADDRESS:" style="width: 100%; background-color: #E0D4C5; border: 1px solid #000; outline: none;border-radius: 5px; padding: 5px;">
+                </div>
+                <div>
+                    <textarea name="" id="" cols="30" rows="20" placeholder="MESSAGE:" style="width: 100%; background-color: #E0D4C5; border: 1px solid #000; outline: none;border-radius: 5px; padding: 5px;"></textarea>
+                </div>
+                <div>
+                    <button style="float: right; background-color: #E0D4C5; border: 1px solid #000; color: #554A43; border-radius: 5px; width: 68px;">submit</button>
+                </div>
+            </form>
+        </div>
+        <div style="display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;">
+            <div style="margin-top: 150px;">
+                <div style="display: grid; grid-template-columns: 18px 1fr; gap: 5px; margin: 10px 0;">
+                    <div>
+                        <img src="Home (3) 2.png" alt="Telephone icon">
+                    </div>
+                    <div>
+                        (032) 266 5877
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 18px 1fr; gap: 5px; margin: 10px 0;">
+                    <div >
+                        <img src="Home (2).png" alt="mobile icon">
+                    </div>
+                    <div>
+                        0991 206 3202
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 18px 1fr; gap: 5px; margin: 10px 0;">
+                    <div>
+                        <img src="Home (1) 2.png" alt="email icon">
+                    </div>
+                    <div>
+                        mcsi.kristina@gmail.com
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 80px; margin-left: -15px;">
+                <div>
+                    <label for="" style="font-size: 20px; font-family: serif;" >Connect with me</label>
+                </div>
+                <div style="display: flex; gap: 15px; padding: 15px 0;">
+                    <div>
+                        <a href="https://www.facebook.com/chiKAYEta" target="_blank">
+                            <img src="Home (5).png" alt="facebook">
+                        </a>
+                        
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/k_k19v.e/?igsh=ZGUzMzM3NWJiOQ%3D%3D&fbclid=IwAR0O_N3Ymv29xNVaAfe91HyNeiE-wLKX0AWpvS2qDeT8qfz1Jex6VMu4nCk_aem_Aa1r8x09KaP4V2RgOOxy-h8shXwtf99bvkp_13RhxJqFO5jlyCg3OZcVXx_jObUW0mGdg_oGQZLziX-DGhYG7oko" target="_blank">
+                            <img src="Home (4).png" alt="instagram">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://linkedin.com" target="_blank">
+                            <img src="Home (6).png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="Home (3).png" alt="" style="width: 100%;">
+        </div>
+    </section>
+</body>
+</html>
